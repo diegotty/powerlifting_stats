@@ -236,5 +236,5 @@ k = cv2.waitKey(0)
 if k == ord('q'):
     cv2.destroyWindow('path !')
     
-print("git")    
+print("first")    
     
