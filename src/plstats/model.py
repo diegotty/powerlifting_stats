@@ -19,7 +19,7 @@ class Model:
         delay = int(1000/fps)
     
     def debugSetupWindow(self):
-        self.video = cv2.VideoCapture('C:/Users/diego/Videos/diego/2022/plstats/src/plstats/videos/bench.mp4')
+        self.video = cv2.VideoCapture('videos/bench.mp4')
         width = self.video.get(cv2.CAP_PROP_FRAME_WIDTH )
         height = self.video.get(cv2.CAP_PROP_FRAME_HEIGHT )
         fps = self.video.get(cv2.CAP_PROP_FPS)

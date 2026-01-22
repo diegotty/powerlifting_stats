@@ -1,5 +1,5 @@
 
-selecting bar
+## selecting bar
 cv2.namedWindow('select bar !')
 cv2.setMouseCallback('select bar !', click_event)
 barPos = []

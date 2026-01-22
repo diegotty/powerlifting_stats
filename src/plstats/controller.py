@@ -8,7 +8,7 @@ class Controller:
         self.view = view
    
     def run(self):
-       #file = self.view.selectFile()
+       ##file = self.view.selectFile()
        self.model.debugSetupWindow()
        barPoints = self.view.debugSelectPoints(self.model.video)
        reps, center = self.model.createTracker(barPoints)
